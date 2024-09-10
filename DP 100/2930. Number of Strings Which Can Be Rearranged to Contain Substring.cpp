@@ -26,6 +26,7 @@ private:
      int helper(int index, int l, int e, int t, int n){
          // base case -
          // return the control of program,where the fuction is envoked 
+         // Lecture-7 recursion (TUF)
          if(index == n){
             // which means you have genarate the 1 strings which have substring(leet)
             if(l == 1 and e == 2 && t == 1){
